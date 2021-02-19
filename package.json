@@ -7,7 +7,7 @@
         "tailwindcss": "^2.0.2"
     },
     "scripts": {
-        "build": "postcss styles/tailwind.css -o ./dist/styles.css",
-        "watch": "postcss styles/tailwind.css -o ./dist/styles.css -w --verbose"
+        "build": "postcss styles/tailwind.css -o ./dist/main.css",
+        "watch": "postcss styles/tailwind.css -o ./dist/main.css -w --verbose"
     }
 }
