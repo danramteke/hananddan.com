@@ -1,0 +1,80 @@
+@layer components {
+    h1 {
+        @apply sm:text-8xl mt-8 font-bold;
+        @apply text-6xl px-2  sm:p-0;
+        @apply sm:col-span-4 sm:col-start-3;
+    }
+    h2 {
+        @apply text-3xl px-2 sm:p-0 font-bold;
+        @apply sm:col-span-2;
+    }
+    h3 {
+        @apply text-xl mt-2 font-bold;
+        @apply sm:col-span-4 sm:col-start-3;
+    }
+    h4 {
+        @apply text-base mt-4 font-bold inline;
+        @apply sm:col-span-4 sm:col-start-3;
+        @apply border-t-2 border-black;
+    }
+    h2 {
+        @apply border-t-4 mt-8 border-black;
+    }
+
+    h2+p,
+    h2+ul {
+        @apply sm:border-t-4 sm:mt-8 sm:border-black
+    }
+    a {
+        @apply text-red-600 bg-transparent  border-transparent font-bold ;
+        @apply hover:bg-red-600 hover:text-white hover:border-red-600 ;
+      
+     }
+    p {
+        @apply mt-2;
+        @apply px-2 sm:p-0; 
+        @apply sm:col-span-4 sm:col-start-3;
+    }
+    ul {
+        @apply list-outside;
+        @apply sm:col-span-4 sm:col-start-3;
+    }
+    ul li {
+        @apply mb-8;
+    }
+
+    nav {
+        @apply w-full flex justify-center; 
+        @apply sm:w-auto sm:flex-none;
+        @apply sm:grid sm:grid-cols-6;
+    }
+    nav a {
+        @apply  sm:col-start-6  ;
+    }
+
+    ul li { }
+    ul li img {
+        @apply w-40 mx-auto sm:mx-0 ;
+        @apply col-start-5;
+    }
+    ul li img+img { }
+
+   img {
+        @apply col-start-5;
+        @apply w-40
+    }
+    img+img {
+        @apply col-start-6;
+    }
+
+    #page-content,
+    #post-content,
+    footer, nav {
+        @apply sm:grid sm:grid-cols-6;
+        @apply w-full md:container md:w-readable md:mx-auto;
+    }
+    footer {
+        @apply text-gray-600;
+        @apply mt-16 py-4;
+    }
+}    

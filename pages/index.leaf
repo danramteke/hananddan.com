@@ -4,11 +4,24 @@ title: Hannah & Daniel
 #extend("page.leaf"):
 #export("content"):
 
-<h1>Hannah and Daniel are getting married!</h1>
+<h1>Hannah and Daniel</h1>
+
+<p>are getting married on zoom!</p>
+
+<h2>When</h2>
 
 
-<p>When: February 27, 2021 at 8pm Eastern Time</p>
-<p>Where: Zoom zoom</p>
+<ul>
+<li><b>Eastern Time:</b> February 27, 2021 at 8 PM</li>
+<li><b>Pacific Time:</b> February 27, 2021 at 5 PM</li>
+<li><b>Korean Time:</b> February 28, 2021 at 10 AM</li>
+<li><b>Indian Time:</b> February 28, 2021 at 7:30 AM</li>
+</ul>
+
+
+<h2>Registry</h2>
+<p>So kind of folks to keep asking for a registry link. It is coming soon.
+
 
 
 
