@@ -38,9 +38,11 @@
     ul {
         @apply list-outside;
         @apply sm:col-span-4 sm:col-start-3;
+        
     }
     ul li {
         @apply mb-8;
+        @apply px-2 sm:p-0; 
     }
 
     nav {
