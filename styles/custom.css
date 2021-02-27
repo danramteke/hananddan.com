@@ -23,7 +23,7 @@
 
     h2+p,
     h2+ul {
-        @apply sm:border-t-4 sm:mt-8 sm:border-black
+        @apply sm:border-t-4 mt-8 sm:border-black
     }
     a {
         @apply text-red-600 bg-transparent  border-transparent font-bold ;
