@@ -679,12 +679,15 @@ h2 {
   margin-top: 2rem;
 }
 
+h2+p, h2+ul {
+  margin-top: 2rem;
+}
+
 @media (min-width: 640px) {
   h2+p, h2+ul {
     --tw-border-opacity: 1;
     border-color: rgba(0, 0, 0, var(--tw-border-opacity));
     border-top-width: 4px;
-    margin-top: 2rem;
   }
 }
 
